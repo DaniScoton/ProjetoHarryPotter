@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family= Ysabeau +Office:wght@1;100;200;300;400;500;600 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ysabeau Office';
+}
+
+body {
+    background: linear-gradient(100deg, #0b0e31, #00030e);
+}
+
+header {
+    background-color: #061422;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    color: #fff;
+    height: 60px;
+}
+
+img {
+    width: 70px;
+}
+
+span {
+    width: 70px;
+}
+
+.linha {
+    width: 100vw;
+    height: 1vh;
+    background-color: #0f243b;
+}
+
+.linha2 {
+    width: 100vw;
+    height: 1vh;
+    background-color: #aa7d3b;
+    margin-bottom: 25px;
+}
+
+.div-main {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100vw;
+    max-width: 300px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.quantidade {
+    text-align: end;
+}
+
+.respostas {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    width: 100%;
+    text-align: start;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #aa7d3b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.finalizado {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.finalizado button {
+    display: none;
+    text-align: center;
+}

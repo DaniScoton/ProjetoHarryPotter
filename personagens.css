@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family= Ysabeau +Office:wght@1;100;200;300;400;500;600 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(100deg,  #0b0e31,  #00030e);
+}
+
+header {
+    background-color: #061422;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    height: 60px;
+}
+
+img{
+    width: 70px;
+}
+
+span{
+    width: 70px;
+}
+
+.linha{
+    width: 100vw;
+    height: 1vh;
+    background-color: #0f243b;
+}
+
+.linha2{
+    width: 100vw;
+    height: 1vh;
+    background-color:#aa7d3b;
+    margin-bottom: 25px;
+}
+
+#lista{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+    align-items: center;
+    gap: 1.5rem;
+    width: 98%;
+    padding-left: 15px;
+}
+
+.item{
+    border: 4px solid #aa7d3b;
+    min-width: 320px;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #aa7d3b;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.item h2{
+    margin-bottom: 10px;
+}
+
+.item p{
+    color: #fff;
+    letter-spacing: 0.2ch;
+}        

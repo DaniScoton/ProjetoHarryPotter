@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family= Ysabeau +Office:wght@1;100;200;300;400;500;600 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(100deg,  #0b0e31,  #00030e);
+}
+
+header{
+    background-color: #061422;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.linha{
+    width: 100vw;
+    height: 1vh;
+    background-color: #0f243b;
+}
+
+.linha2{
+    width: 100vw;
+    height: 1vh;
+    background-color:#aa7d3b;
+}
+
+.logo{
+    width: 200px;
+    margin-top: 5px;
+}
+
+.boxs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+
+.div-box{
+    border: 4px solid #aa7d3b;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 23vw;
+    height: 60vh;
+    color: #aa7d3b;
+    margin-top: 45px;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.div-box h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.div-box p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div-box img{
+    width: 300px;
+}
