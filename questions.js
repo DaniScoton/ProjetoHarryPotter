@@ -36,7 +36,7 @@ export default [
         answers: [
           { option: "Dumbledore", correct: false },
           { option: "Herança de seu pai", correct: false },
-          { option: "Minerva", correct: true },
+          { option: "Sirius", correct: true },
         ],
       },
       {
@@ -60,7 +60,7 @@ export default [
         answers: [
           { option: "Pedra Filosofal", correct: true },
           { option: "Câmara Secreta", correct: false },
-          { option: "Calice de Fogo", correct: false },
+          { option: "Cálice de Fogo", correct: false },
         ],
       },
       {

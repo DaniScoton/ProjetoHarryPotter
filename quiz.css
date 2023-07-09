@@ -52,9 +52,8 @@ main {
     background-color: white;
     padding: 10px;
     border-radius: 10px;
-    width: 100vw;
-    max-width: 300px;
-    min-height: 200px;
+    width: 1000px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,20 +62,55 @@ main {
 
 .content {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 100%;
     gap: 10px;
 }
 
-.quantidade {
-    text-align: end;
+.spnQtd{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 90%;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.respostas {
+.question{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    align-items: center;
+    justify-content: center;
 }
+
+.answers{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.answer{
+    font-size: 25px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease .3s;
+}
+
+.answer:hover{
+    background: #bb9254;
+    transition: all ease .3s;
+}
+
 
 button {
     width: 100%;
@@ -90,12 +124,31 @@ button {
     color: white;
 }
 
-.finalizado {
+.finish {
     flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
     gap: 10px;
+    font-size: 25px;
+    width: 60%;
+
 }
 
-.finalizado button {
-    display: none;
+.finish span{
+    font-size: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.finish button {
     text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    width: 80%;
+    margin-top: 20px;
+    height: 60px;
 }

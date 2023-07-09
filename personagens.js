@@ -9,22 +9,18 @@ function consumirLista(json){
         var div = document.createElement("div");
         div.classList.add("item");
         var h2 = document.createElement("h2");
-        h2.textContent = objeto.name;
+        h2.textContent = objeto.name == "" ? "Não possui tal informação" : objeto.name;
         var p = document.createElement("p");
-        p.textContent = objeto.house;
+        p.textContent = "Casa em Hogwarts: " + (objeto.house == "" ? "Não possui tal informação" :  objeto.house);
         var p2 = document.createElement("p");
-        p2.textContent = objeto.dateOfBirth;
+        p2.textContent = "Aniversário: " +  (objeto.dateOfBirth == null ? "Não possui tal informação" : objeto.dateOfBirth);
         var p3 = document.createElement("p");
-        p3.textContent = objeto.patronus;
-
-        var stringCasa = "Casa em Hogwarts: "
-        var stringAniversario = "Aniversário: "
-        var stringPatrono = "Patrono: "
+        p3.textContent = "Patrono: " + (objeto.patronus == "" ? "Não possui tal informação" : objeto.patronus);
 
         div.append(h2);
-        div.append(stringCasa, p);
-        div.append(stringAniversario, p2);
-        div.append(stringPatrono, p3);
+        div.append(p);
+        div.append(p2);
+        div.append(p3);
         lista.append(div);
     });
 }

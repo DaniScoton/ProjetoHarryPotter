@@ -29,16 +29,22 @@ span{
 }
 
 .linha{
-    width: 100vw;
+    width: 100%;
     height: 1vh;
     background-color: #0f243b;
 }
 
 .linha2{
-    width: 100vw;
+    width: 100%;
     height: 1vh;
     background-color:#aa7d3b;
     margin-bottom: 25px;
+}
+
+.div-lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #lista{
@@ -46,22 +52,20 @@ span{
     grid-template-columns: repeat(auto-fit, minmax(320px, auto));
     align-items: center;
     gap: 1.5rem;
-    width: 98%;
-    padding-left: 15px;
+    width: 95%;
 }
 
 .item{
-    border: 4px solid #aa7d3b;
-    min-width: 320px;
-    height: 30vh;
-    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 4px solid #aa7d3b;
+    min-width: 320px;
+    height: 30vh;
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #aa7d3b;
-    padding: 20px;
     border-radius: 10px;
     box-sizing: border-box;
 }
