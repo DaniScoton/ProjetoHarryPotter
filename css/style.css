@@ -18,13 +18,13 @@ header{
 }
 
 .linha{
-    width: 100vw;
+    width: 100%;
     height: 1vh;
     background-color: #0f243b;
 }
 
 .linha2{
-    width: 100vw;
+    width: 100%;
     height: 1vh;
     background-color:#aa7d3b;
 }
