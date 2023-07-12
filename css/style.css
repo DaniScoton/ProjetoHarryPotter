@@ -55,7 +55,7 @@ a{
     width: 23vw;
     height: 60vh;
     color: #aa7d3b;
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 8px;
     padding: 30px;
 }
@@ -71,3 +71,86 @@ a{
 .div-box img{
     width: 300px;
 }
+
+@media (max-width: 870px){
+
+    .boxs{
+        flex-direction: column;
+    }
+
+    .div-box{
+        width: 85vw;
+        height: 10vh;
+    }
+
+    .div-box h2{
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .div-box img{
+        display: none;
+    }
+
+    .div-box p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 760px){
+
+    .div-box h2{
+        font-size: 20px;
+    }
+
+    .div-box p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 615px){
+
+    .div-box h2{
+        font-size: 15px;
+    }
+
+    .div-box p{
+        font-size: 10px;
+    }
+
+    .div-box{
+        width: 80vw;
+        height: 8vh;
+    }
+}
+
+@media (max-width: 490px){
+
+    .div-box h2{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .div-box p{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 390px){
+
+    .div-box h2{
+        font-size: 10px;
+    }
+
+    .div-box p{
+        font-size: 10px;
+    }
+
+    .div-box{
+        width: 70vw;
+        height: 7vh;
+    }
+}
+
+
+

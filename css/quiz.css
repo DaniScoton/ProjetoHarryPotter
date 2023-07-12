@@ -151,3 +151,162 @@ button {
     margin-top: 20px;
     height: 60px;
 }
+
+@media (max-width: 1300px){
+
+    main{
+        width: 800px;
+        height: 300px;
+    }
+
+    .spnQtd{
+        font-size: 20px;
+    }
+
+    .question{
+        font-size: 25px;
+    }
+
+    .answer{
+        font-size: 20px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 925px){
+
+    span{
+        display: none;
+    }
+
+    header{
+        justify-content: center;
+    }
+
+    img{
+        width: 50px;
+    }
+
+    .titulo{
+        margin-left: 15px;
+        font-size: 25px;
+    }
+
+    main{
+        width: 600px;
+        height: 250px;
+    }
+
+    .spnQtd{
+        font-size: 15px;
+    }
+
+    .question{
+        font-size: 20px;
+    }
+
+    .answer{
+        font-size: 18px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 655px){
+
+    main{
+        width: 450px;
+        height: 200px;
+    }
+
+    .titulo{
+        font-size: 25px;
+    }
+
+    img{
+        width: 50px;
+    }
+
+    .spnQtd{
+        font-size: 12px;
+    }
+
+    .question{
+        font-size: 15px;
+    }
+
+    .answer{
+        font-size: 15px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 520px){
+
+    main{
+        width: 350px;
+        height: 200px;
+    }
+
+    .question{
+        font-size: 12px;
+    }
+
+    .answer{
+        font-size: 12px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 435px){
+
+    img{
+        width: 30px;
+    }
+
+    .titulo{
+        font-size: 20px;
+    }
+
+    main{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 350px){
+
+    .titulo{
+        font-size: 15px;
+    }
+
+    main{
+        width: 290px;
+        height: 200px;
+    }
+
+    .spnQtd{
+        font-size: 10px;
+    }
+
+    .question{
+        font-size: 10px;
+    }
+
+    .answer{
+        font-size: 10px;
+        height: 25px;
+    }
+
+}
+
+@media (max-width: 320px){
+
+    main{
+        width: 250px;
+        height: 180px;
+    }
+
+}
+
+
+

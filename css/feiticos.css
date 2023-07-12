@@ -78,3 +78,49 @@ span{
     color: #fff;
     letter-spacing: 0.2ch;
 }
+
+@media (max-width: 840px){
+
+    img{
+        width: 50px;
+    }
+
+    span{
+        display: none;
+    }
+
+    header{
+        justify-content: center;
+    }
+
+    .titulo{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 350px){
+
+    .titulo{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    img{
+        width: 40px;
+    }
+
+    .item{
+        max-width: 320px;
+        min-width: 200px;
+    }
+
+}
+
+@media (max-width: 330px){
+
+    .item{
+        max-width: 270px;
+        min-width: 200px;
+    }
+
+}
