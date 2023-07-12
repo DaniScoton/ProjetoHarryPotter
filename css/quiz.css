@@ -141,6 +141,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .finish button {
@@ -150,6 +151,7 @@ button {
     width: 80%;
     margin-top: 20px;
     height: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 @media (max-width: 1300px){
@@ -171,6 +173,7 @@ button {
         font-size: 20px;
         height: 50px;
     }
+
 }
 
 @media (max-width: 925px){
@@ -209,6 +212,14 @@ button {
         font-size: 18px;
         height: 40px;
     }
+
+    .finish span{
+        font-size: 25px;
+    }
+    
+    .finish button {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 655px){
@@ -238,6 +249,15 @@ button {
         font-size: 15px;
         height: 30px;
     }
+
+    .finish span{
+        font-size: 20px;
+    }
+    
+    .finish button {
+        font-size: 15px;
+    }
+
 }
 
 @media (max-width: 520px){
@@ -271,6 +291,15 @@ button {
         width: 300px;
         height: 200px;
     }
+
+    .finish span{
+        font-size: 18px;
+    }
+
+    .finish button {
+        font-size: 12px;
+        height: 30px;
+    }
 }
 
 @media (max-width: 350px){
@@ -297,6 +326,15 @@ button {
         height: 25px;
     }
 
+    .finish span{
+        font-size: 18px;
+    }
+    
+    .finish button {
+        font-size: 12px;
+        height: 30px;
+    }
+
 }
 
 @media (max-width: 320px){
@@ -306,6 +344,14 @@ button {
         height: 180px;
     }
 
+    .finish span{
+        font-size: 15px;
+    }
+    
+    .finish button {
+        font-size: 12px;
+        height: 30px;
+    }
 }
 
 
